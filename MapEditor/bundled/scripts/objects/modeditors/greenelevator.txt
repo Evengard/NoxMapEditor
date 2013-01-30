@@ -1,0 +1,6 @@
+Destination pit
+EXTENT
+0
+Useless integer
+INT
+0

@@ -1,0 +1,15 @@
+Null Bytes
+VOID
+14
+Drop at X
+INT
+0
+Drop at Y
+INT
+0
+Null Bytes
+VOID
+5
+Null Byte
+BYTE
+0

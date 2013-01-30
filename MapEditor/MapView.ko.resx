@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="contextMenuDelete.Text" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="menuItem3.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="contextMenuProperties.Text" xml:space="preserve">
+    <value>속성</value>
+  </data>
+  <data name="contextMenuExportDefault.Text" xml:space="preserve">
+    <value>기본 모드로 추출</value>
+  </data>
+  <data name="contextMenuExportBinary.Text" xml:space="preserve">
+    <value>이진파일 추출</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="statusBar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="statusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 578</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusLocation.MinWidth" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="statusLocation.Name" xml:space="preserve">
+    <value>statusLocation</value>
+  </data>
+  <data name="statusLocation.ToolTipText" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="statusWall.AutoSize" type="System.Windows.Forms.StatusBarPanelAutoSize, System.Windows.Forms">
+    <value>Contents</value>
+  </data>
+  <data name="statusWall.MinWidth" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="statusWall.Name" xml:space="preserve">
+    <value>statusWall</value>
+  </data>
+  <data name="statusWall.ToolTipText" xml:space="preserve">
+    <value>벽 정보</value>
+  </data>
+  <data name="statusWall.Width" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="statusTile.AutoSize" type="System.Windows.Forms.StatusBarPanelAutoSize, System.Windows.Forms">
+    <value>Contents</value>
+  </data>
+  <data name="statusTile.MinWidth" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="statusTile.Name" xml:space="preserve">
+    <value>statusTile</value>
+  </data>
+  <data name="statusTile.ToolTipText" xml:space="preserve">
+    <value>타일 정보</value>
+  </data>
+  <data name="statusTile.Width" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="statusObject.AutoSize" type="System.Windows.Forms.StatusBarPanelAutoSize, System.Windows.Forms">
+    <value>Contents</value>
+  </data>
+  <data name="statusObject.MinWidth" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="statusObject.Name" xml:space="preserve">
+    <value>statusObject</value>
+  </data>
+  <data name="statusObject.ToolTipText" xml:space="preserve">
+    <value>오브젝트 정보</value>
+  </data>
+  <data name="statusObject.Width" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="statusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 22</value>
+  </data>
+  <data name="statusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Name" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="editWpButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 41</value>
+  </data>
+  <data name="editWpButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="editWpButton.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="editWpButton.Text" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="&gt;&gt;editWpButton.Name" xml:space="preserve">
+    <value>editWpButton</value>
+  </data>
+  <data name="&gt;&gt;editWpButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editWpButton.Parent" xml:space="preserve">
+    <value>wpGroup</value>
+  </data>
+  <data name="&gt;&gt;editWpButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="delWpButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 41</value>
+  </data>
+  <data name="delWpButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 23</value>
+  </data>
+  <data name="delWpButton.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="delWpButton.Text" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="&gt;&gt;delWpButton.Name" xml:space="preserve">
+    <value>delWpButton</value>
+  </data>
+  <data name="&gt;&gt;delWpButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delWpButton.Parent" xml:space="preserve">
+    <value>wpGroup</value>
+  </data>
+  <data name="&gt;&gt;delWpButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="listWaypoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 70</value>
+  </data>
+  <data name="listWaypoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 21</value>
+  </data>
+  <data name="listWaypoints.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;listWaypoints.Name" xml:space="preserve">
+    <value>listWaypoints</value>
+  </data>
+  <data name="&gt;&gt;listWaypoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listWaypoints.Parent" xml:space="preserve">
+    <value>wpGroup</value>
+  </data>
+  <data name="&gt;&gt;listWaypoints.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="wpNameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 19</value>
+  </data>
+  <data name="wpNameBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 20</value>
+  </data>
+  <data name="wpNameBox.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;wpNameBox.Name" xml:space="preserve">
+    <value>wpNameBox</value>
+  </data>
+  <data name="&gt;&gt;wpNameBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wpNameBox.Parent" xml:space="preserve">
+    <value>wpGroup</value>
+  </data>
+  <data name="&gt;&gt;wpNameBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="wpAddButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 41</value>
+  </data>
+  <data name="wpAddButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 23</value>
+  </data>
+  <data name="wpAddButton.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="wpAddButton.Text" xml:space="preserve">
+    <value>신규</value>
+  </data>
+  <data name="&gt;&gt;wpAddButton.Name" xml:space="preserve">
+    <value>wpAddButton</value>
+  </data>
+  <data name="&gt;&gt;wpAddButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wpAddButton.Parent" xml:space="preserve">
+    <value>wpGroup</value>
+  </data>
+  <data name="&gt;&gt;wpAddButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="wpGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 377</value>
+  </data>
+  <data name="wpGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 97</value>
+  </data>
+  <data name="wpGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="wpGroup.Text" xml:space="preserve">
+    <value>웨이포인트</value>
+  </data>
+  <data name="&gt;&gt;wpGroup.Name" xml:space="preserve">
+    <value>wpGroup</value>
+  </data>
+  <data name="&gt;&gt;wpGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wpGroup.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;wpGroup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboObjCreate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="cboObjCreate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 21</value>
+  </data>
+  <data name="cboObjCreate.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;cboObjCreate.Name" xml:space="preserve">
+    <value>cboObjCreate</value>
+  </data>
+  <data name="&gt;&gt;cboObjCreate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboObjCreate.Parent" xml:space="preserve">
+    <value>objectGroup</value>
+  </data>
+  <data name="&gt;&gt;cboObjCreate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="selectButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="selectButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 48</value>
+  </data>
+  <data name="selectButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="selectButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="selectButton.Text" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="&gt;&gt;selectButton.Name" xml:space="preserve">
+    <value>selectButton</value>
+  </data>
+  <data name="&gt;&gt;selectButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectButton.Parent" xml:space="preserve">
+    <value>objectGroup</value>
+  </data>
+  <data name="&gt;&gt;selectButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="newObjectButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="newObjectButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 48</value>
+  </data>
+  <data name="newObjectButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="newObjectButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="newObjectButton.Text" xml:space="preserve">
+    <value>만들기</value>
+  </data>
+  <data name="&gt;&gt;newObjectButton.Name" xml:space="preserve">
+    <value>newObjectButton</value>
+  </data>
+  <data name="&gt;&gt;newObjectButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;newObjectButton.Parent" xml:space="preserve">
+    <value>objectGroup</value>
+  </data>
+  <data name="&gt;&gt;newObjectButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="objectGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 181</value>
+  </data>
+  <data name="objectGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 80</value>
+  </data>
+  <data name="objectGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="objectGroup.Text" xml:space="preserve">
+    <value>오브젝트</value>
+  </data>
+  <data name="&gt;&gt;objectGroup.Name" xml:space="preserve">
+    <value>objectGroup</value>
+  </data>
+  <data name="&gt;&gt;objectGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;objectGroup.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;objectGroup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="colorBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 69</value>
+  </data>
+  <data name="colorBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 21</value>
+  </data>
+  <data name="colorBox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;colorBox.Name" xml:space="preserve">
+    <value>colorBox</value>
+  </data>
+  <data name="&gt;&gt;colorBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorBox.Parent" xml:space="preserve">
+    <value>floorGroup</value>
+  </data>
+  <data name="&gt;&gt;colorBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 46</value>
+  </data>
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="checkBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>임의</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Name" xml:space="preserve">
+    <value>checkBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.Parent" xml:space="preserve">
+    <value>floorGroup</value>
+  </data>
+  <data name="&gt;&gt;checkBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="threeFloorBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="threeFloorBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 42</value>
+  </data>
+  <data name="threeFloorBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="threeFloorBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="threeFloorBox.Text" xml:space="preserve">
+    <value>3x3</value>
+  </data>
+  <data name="&gt;&gt;threeFloorBox.Name" xml:space="preserve">
+    <value>threeFloorBox</value>
+  </data>
+  <data name="&gt;&gt;threeFloorBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;threeFloorBox.Parent" xml:space="preserve">
+    <value>floorGroup</value>
+  </data>
+  <data name="&gt;&gt;threeFloorBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonBlend.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonBlend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 128</value>
+  </data>
+  <data name="buttonBlend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 24</value>
+  </data>
+  <data name="buttonBlend.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="buttonBlend.Text" xml:space="preserve">
+    <value>모서리</value>
+  </data>
+  <data name="&gt;&gt;buttonBlend.Name" xml:space="preserve">
+    <value>buttonBlend</value>
+  </data>
+  <data name="&gt;&gt;buttonBlend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonBlend.Parent" xml:space="preserve">
+    <value>floorGroup</value>
+  </data>
+  <data name="&gt;&gt;buttonBlend.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tileVar.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tileVar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 128</value>
+  </data>
+  <data name="tileVar.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tileVar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 21</value>
+  </data>
+  <data name="tileVar.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;tileVar.Name" xml:space="preserve">
+    <value>tileVar</value>
+  </data>
+  <data name="&gt;&gt;tileVar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tileVar.Parent" xml:space="preserve">
+    <value>floorGroup</value>
+  </data>
+  <data name="&gt;&gt;tileVar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tileGraphic.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tileGraphic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 96</value>
+  </data>
+  <data name="tileGraphic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 21</value>
+  </data>
+  <data name="tileGraphic.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tileGraphic.Name" xml:space="preserve">
+    <value>tileGraphic</value>
+  </data>
+  <data name="&gt;&gt;tileGraphic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tileGraphic.Parent" xml:space="preserve">
+    <value>floorGroup</value>
+  </data>
+  <data name="&gt;&gt;tileGraphic.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="floorButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="floorButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 16</value>
+  </data>
+  <data name="floorButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="floorButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="floorButton.Text" xml:space="preserve">
+    <value>만들기</value>
+  </data>
+  <data name="&gt;&gt;floorButton.Name" xml:space="preserve">
+    <value>floorButton</value>
+  </data>
+  <data name="&gt;&gt;floorButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;floorButton.Parent" xml:space="preserve">
+    <value>floorGroup</value>
+  </data>
+  <data name="&gt;&gt;floorButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="floorGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="floorGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 159</value>
+  </data>
+  <data name="floorGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="floorGroup.Text" xml:space="preserve">
+    <value>타일</value>
+  </data>
+  <data name="&gt;&gt;floorGroup.Name" xml:space="preserve">
+    <value>floorGroup</value>
+  </data>
+  <data name="&gt;&gt;floorGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;floorGroup.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;floorGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="secretFlagsBoxes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 385</value>
+  </data>
+  <data name="secretFlagsBoxes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 64</value>
+  </data>
+  <data name="secretFlagsBoxes.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;secretFlagsBoxes.Name" xml:space="preserve">
+    <value>secretFlagsBoxes</value>
+  </data>
+  <data name="&gt;&gt;secretFlagsBoxes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;secretFlagsBoxes.Parent" xml:space="preserve">
+    <value>wallGroup</value>
+  </data>
+  <data name="&gt;&gt;secretFlagsBoxes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="wallSelector.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="wallSelector.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 291</value>
+  </data>
+  <data name="wallSelector.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;wallSelector.Name" xml:space="preserve">
+    <value>wallSelector</value>
+  </data>
+  <data name="&gt;&gt;wallSelector.Type" xml:space="preserve">
+    <value>NoxMapEditor.WallSelector, MapEditor, Version=0.0.9.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;wallSelector.Parent" xml:space="preserve">
+    <value>wallGroup</value>
+  </data>
+  <data name="&gt;&gt;wallSelector.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonSecret.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="buttonSecret.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSecret.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 356</value>
+  </data>
+  <data name="buttonSecret.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="buttonSecret.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="buttonSecret.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="buttonSecret.Text" xml:space="preserve">
+    <value>비밀</value>
+  </data>
+  <data name="&gt;&gt;buttonSecret.Name" xml:space="preserve">
+    <value>buttonSecret</value>
+  </data>
+  <data name="&gt;&gt;buttonSecret.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSecret.Parent" xml:space="preserve">
+    <value>wallGroup</value>
+  </data>
+  <data name="&gt;&gt;buttonSecret.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="destructableButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="destructableButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="destructableButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 332</value>
+  </data>
+  <data name="destructableButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 1</value>
+  </data>
+  <data name="destructableButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="destructableButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="destructableButton.Text" xml:space="preserve">
+    <value>파괴</value>
+  </data>
+  <data name="&gt;&gt;destructableButton.Name" xml:space="preserve">
+    <value>destructableButton</value>
+  </data>
+  <data name="&gt;&gt;destructableButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;destructableButton.Parent" xml:space="preserve">
+    <value>wallGroup</value>
+  </data>
+  <data name="&gt;&gt;destructableButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="windowsButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="windowsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="windowsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 308</value>
+  </data>
+  <data name="windowsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 1</value>
+  </data>
+  <data name="windowsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="windowsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="windowsButton.Text" xml:space="preserve">
+    <value>창</value>
+  </data>
+  <data name="&gt;&gt;windowsButton.Name" xml:space="preserve">
+    <value>windowsButton</value>
+  </data>
+  <data name="&gt;&gt;windowsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;windowsButton.Parent" xml:space="preserve">
+    <value>wallGroup</value>
+  </data>
+  <data name="&gt;&gt;windowsButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="wallGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="wallGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 458</value>
+  </data>
+  <data name="wallGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="wallGroup.Text" xml:space="preserve">
+    <value>벽</value>
+  </data>
+  <data name="&gt;&gt;wallGroup.Name" xml:space="preserve">
+    <value>wallGroup</value>
+  </data>
+  <data name="&gt;&gt;wallGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wallGroup.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;wallGroup.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonPolygonDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonPolygonDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 72</value>
+  </data>
+  <data name="buttonPolygonDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 24</value>
+  </data>
+  <data name="buttonPolygonDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="buttonPolygonDelete.Text" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="&gt;&gt;buttonPolygonDelete.Name" xml:space="preserve">
+    <value>buttonPolygonDelete</value>
+  </data>
+  <data name="&gt;&gt;buttonPolygonDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPolygonDelete.Parent" xml:space="preserve">
+    <value>groupPolygons</value>
+  </data>
+  <data name="&gt;&gt;buttonPolygonDelete.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonPolygonNew.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonPolygonNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 72</value>
+  </data>
+  <data name="buttonPolygonNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="buttonPolygonNew.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="buttonPolygonNew.Text" xml:space="preserve">
+    <value>새로</value>
+  </data>
+  <data name="&gt;&gt;buttonPolygonNew.Name" xml:space="preserve">
+    <value>buttonPolygonNew</value>
+  </data>
+  <data name="&gt;&gt;buttonPolygonNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPolygonNew.Parent" xml:space="preserve">
+    <value>groupPolygons</value>
+  </data>
+  <data name="&gt;&gt;buttonPolygonNew.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonEditPolygon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonEditPolygon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 48</value>
+  </data>
+  <data name="buttonEditPolygon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="buttonEditPolygon.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonEditPolygon.Text" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="&gt;&gt;buttonEditPolygon.Name" xml:space="preserve">
+    <value>buttonEditPolygon</value>
+  </data>
+  <data name="&gt;&gt;buttonEditPolygon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonEditPolygon.Parent" xml:space="preserve">
+    <value>groupPolygons</value>
+  </data>
+  <data name="&gt;&gt;buttonEditPolygon.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonPoints.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 19</value>
+  </data>
+  <data name="buttonPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 23</value>
+  </data>
+  <data name="buttonPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonPoints.Text" xml:space="preserve">
+    <value>포인트</value>
+  </data>
+  <data name="&gt;&gt;buttonPoints.Name" xml:space="preserve">
+    <value>buttonPoints</value>
+  </data>
+  <data name="&gt;&gt;buttonPoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPoints.Parent" xml:space="preserve">
+    <value>groupPolygons</value>
+  </data>
+  <data name="&gt;&gt;buttonPoints.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="listPolygons.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="listPolygons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 48</value>
+  </data>
+  <data name="listPolygons.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="listPolygons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="listPolygons.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;listPolygons.Name" xml:space="preserve">
+    <value>listPolygons</value>
+  </data>
+  <data name="&gt;&gt;listPolygons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listPolygons.Parent" xml:space="preserve">
+    <value>groupPolygons</value>
+  </data>
+  <data name="&gt;&gt;listPolygons.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupPolygons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>103, 267</value>
+  </data>
+  <data name="groupPolygons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 104</value>
+  </data>
+  <data name="groupPolygons.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupPolygons.Text" xml:space="preserve">
+    <value>폴리곤</value>
+  </data>
+  <data name="&gt;&gt;groupPolygons.Name" xml:space="preserve">
+    <value>groupPolygons</value>
+  </data>
+  <data name="&gt;&gt;groupPolygons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupPolygons.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupPolygons.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 578</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>도구</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="scrollPanel.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="contextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="contextMenuCopy.Text" xml:space="preserve">
+    <value>복사</value>
+  </data>
+  <data name="contextMenuPaste.Text" xml:space="preserve">
+    <value>붙여넣기</value>
+  </data>
+  <data name="mapPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mapPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>5888, 5888</value>
+  </data>
+  <data name="mapPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mapPanel.Name" xml:space="preserve">
+    <value>mapPanel</value>
+  </data>
+  <data name="&gt;&gt;mapPanel.Type" xml:space="preserve">
+    <value>NoxMapEditor.MapView+FlickerFreePanel, MapEditor, Version=0.0.9.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mapPanel.Parent" xml:space="preserve">
+    <value>scrollPanel</value>
+  </data>
+  <data name="&gt;&gt;mapPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="scrollPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scrollPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 0</value>
+  </data>
+  <data name="scrollPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>552, 578</value>
+  </data>
+  <data name="scrollPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;scrollPanel.Name" xml:space="preserve">
+    <value>scrollPanel</value>
+  </data>
+  <data name="&gt;&gt;scrollPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scrollPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;scrollPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tmrInvalidate.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="&gt;&gt;contextMenuDelete.Name" xml:space="preserve">
+    <value>contextMenuDelete</value>
+  </data>
+  <data name="&gt;&gt;contextMenuDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem3.Name" xml:space="preserve">
+    <value>menuItem3</value>
+  </data>
+  <data name="&gt;&gt;menuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuProperties.Name" xml:space="preserve">
+    <value>contextMenuProperties</value>
+  </data>
+  <data name="&gt;&gt;contextMenuProperties.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuExportDefault.Name" xml:space="preserve">
+    <value>contextMenuExportDefault</value>
+  </data>
+  <data name="&gt;&gt;contextMenuExportDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuExportBinary.Name" xml:space="preserve">
+    <value>contextMenuExportBinary</value>
+  </data>
+  <data name="&gt;&gt;contextMenuExportBinary.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusLocation.Name" xml:space="preserve">
+    <value>statusLocation</value>
+  </data>
+  <data name="&gt;&gt;statusLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusWall.Name" xml:space="preserve">
+    <value>statusWall</value>
+  </data>
+  <data name="&gt;&gt;statusWall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusTile.Name" xml:space="preserve">
+    <value>statusTile</value>
+  </data>
+  <data name="&gt;&gt;statusTile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusObject.Name" xml:space="preserve">
+    <value>statusObject</value>
+  </data>
+  <data name="&gt;&gt;statusObject.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Name" xml:space="preserve">
+    <value>contextMenu</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuCopy.Name" xml:space="preserve">
+    <value>contextMenuCopy</value>
+  </data>
+  <data name="&gt;&gt;contextMenuCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenuPaste.Name" xml:space="preserve">
+    <value>contextMenuPaste</value>
+  </data>
+  <data name="&gt;&gt;contextMenuPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmrInvalidate.Name" xml:space="preserve">
+    <value>tmrInvalidate</value>
+  </data>
+  <data name="&gt;&gt;tmrInvalidate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MapView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

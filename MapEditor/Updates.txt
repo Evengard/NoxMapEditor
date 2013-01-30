@@ -1,0 +1,261 @@
+October, 11, 2012
+
+1. Fixed crashing that occured from the oct 10th update when scrolling to far to the edge in the GUI tab
+
+2. Made the doors in the GUI tab draw the correct rotation, *currently will not update unless map is reloaded*
+
+3. Started looking into wall orientation, may add them to GUI tab in the future, but would have to add in
+   Z-Ordering of the objects as well.
+
+October, 10, 2012
+
+1. Greatly improved items drawing in the correct places on the GUI tab
+
+2. Artifically meshed the floor tiles on the GUI map together
+
+October, 5, 2012
+
+1. Made the extents of all objects that are moveable OrangeRed so that they are easier to discern from the other
+   objects on the map.
+   
+2. Invisible walls now draw a darker shade then normal walls.
+
+3. Made wall drawing slightly faster and less resource intensive.
+
+4. Optimized text drawing to the map view, the results are apparent, feels like a 25% speed increase.
+
+5. Made the extent numbers on the objects not visible when extents are showing, this should make it
+   a lot easier to figure out what is where and reduce screen clutter.
+
+October, 4, 2012
+
+1. Added a view checkbox (Draw Walls 3D) for walls that displays them extended out to their height.
+   This makes it easier to visualize the wall placement.
+
+2. Added a visual indicator for doors and which direction they are facing
+   This also extends when using 3D walls as well.
+   
+   *Note* Both of these recent quasi "3D" options (walls/extents) when enabled significantly slow down 
+		  the maprendering. If you notice screen tearing when moving around the map, turn them off until you
+		  are at the spot you want to work on.
+		  
+	-Morden-
+
+October, 3, 2012
+
+1. Fixed objects not having the extrabytes affected fields be enabled when first viewing an object that
+   already has extra bytes checked.
+    
+2. Added a highlight to the wall selection buttons to show the currently selected wall better.
+
+3. Added a set of extents viewing selections to the objects tab. Hide = No extents, Show Colliding = Show
+   all of the object extents that have collision, Show All = Show all extents.
+   
+   *Note* Ambient Sounds are never colliding and their extents are rather large, so I made their extents
+   Show as light grey.
+   
+4. Added an option to set the view state of the polygons
+
+5. Added an option to set the view state of the waypoints
+
+   -Morden-
+
+September, 27, 2012
+
+1. Moved the grid alignment options to the objects tab as they only work for those, also made them
+   radio buttons to clarify thier use.
+   
+   *Perfects ideas*
+   
+   -Morden-
+
+September, 26, 2012
+
+1. Finally fixed the waypoints not being able to be enabled manually, sorry about this long term
+   bug. I was not fully aware of it until today. I am willing to fix issues with the map editor as they
+   still arise, just let me know about them.
+   -Morden-
+
+June, 22, 2009
+
+1. Allowed more then one byte flag value for waypoint connections
+2. Decided to remove auto linking in waypoints, edit mode is better
+3. Fixed a few minor bugs	
+4. Screamed at the thing.bin loader
+5. Streamlined moving objects
+6. Added a select mode to the waypoints, move em around at will, also change the name in the text box
+   to change its name value.
+
+June, 22, 2009
+
+1. Revised the waypoint creation methods and interfaces
+	1. Normal waypoint mode now has two autolinking options
+		a. Link 1 -> Links the last point to the new point
+		b. Link 2nd -> Links the new point to the new one
+		c. Both -> Links both to each other
+	
+	2. Right click also removes the waypoints now
+	
+	3. Added a waypoint connections editing button
+		1. Right click removes a connection
+			a. First one clicked is the one that will lose the link to the 2nd
+		2. Left click creates a connection
+			a. First one clicked is the one that will get the link to the second
+	
+	4. When in edit mode the middle mouse button will update the waypoints name
+	
+2. Added in an auto map search / export feature for default mods into the modlist dialog
+   Not sure why I didn't do this before, will search a map for items and if
+   it contains any without a default mod it will export that item as the default.
+   
+   *Note* First map I used it on exported 313 new objects :D
+
+3. Your download for this map editor revision may take longer then normal,
+   I'm packaging all of the new item defaults in with it. Enjoy
+   
+4. Sorry about changing the layout for the tools but it was to create the possibility
+   for a few new expansions I have been wanting. I know it is going to be weird to get
+   used too, but what it will let me add will be well worth it trust me. 
+   
+5. Added something awesome
+   	
+June, 18, 2009
+
+1. Made part of the GUI more efficient
+
+June, 17, 2009
+
+1. Fixed an error where the context menu would show when removing tiles
+2. Tried to fix the MudEdge server crash problem *Untested*
+
+June, 16, 2009
+
+1. Fixed possible tile crash with improper tile addressing.
+2. Discovered that edge tile varations are not associated with tile variations, will work in to the editor later.
+3. Please forward all feature requests to www.noxforum.net before I finish up work on the editor and move on
+4. Changed default tile coloring
+5. Revised default mod listing form	
+6. Did more background fixs and set ups
+7. Added option to ignore a tile type when auto edging, so you can edge only to one side of a tile
+
+June, 15, 2009
+
+1. Changed how the map interface interacts with the main window, 
+this will allow for extension of it in the future.
+
+June, 11, 2009
+
+1. Redid auto tile to work like it should
+2. Fuck you templar
+3. It was a lot of work, fuck you all
+4. My head hurts
+
+June, 11, 2009
+
+1. Fixed small bug introduced with tile painting that kept mouse input without focus.
+2. Sorted tile selection by name so it is easier to find the tile you want.
+3. Sorted object selection by name so it is easier to find the object you want.
+4. Sorted wall selection by name so it is easier to find the wall you want.
+5. Added Auto edging option in to the editor *new feature, may be buggy*.
+6. New "Edit" mode for edging added, lets you re-edge a tile without re-creating it.
+7. Edging is now shown by edging the tiles, it is still a work in progress.
+
+*Note*: Auto Edging works to a point, you have to watch it near walls and it won't show up
+		perfectly on many Westwood maps because they used blends we generally do not.
+		However on custom maps, unless you use some of the weird blends, it should work perfectly.
+
+June, 10, 2009
+
+1.  Changed tiling to a "paint brush" system, holding down left mouse button will paint tiles on.
+	Holding down the right mouse button will erase the tiles. Clicking the middle mouse button 
+	will switch between single tile and multi tile paint. Also the painted tiles will not replace
+	any tiles that are already there, so you can edge around tiles or fill gaps quickly.
+	
+2. Increased the draw speed of the main window, this will require slightly more CPU but was required.
+3. Added in a tile preview box that follows the mouse and shows the exact tile location you will be editing.
+
+June, 09, 2009
+
+1. Fixed a crashing bug in the mod editor dialog after loading a map
+2. Fixed scripting again so it didn't crash on load
+3. Fixed an uncommon crash in re-naming scripting strings to a string with 0 characters
+4. Added redundency to the scripting string editing to avoid user based errors
+5. Added base system for potential interfacing with the map database
+6. Added a new group panel for advanced mapping options and added a series of advanced mapping options
+7. Update list now displays on load after an update
+8. Added new menu item "Templates->Default List", it shows every item without a default mod
+9. Placed emphasis on menu item "Templates->WriteMod", it shows/edits all objects without modeditors
+
+June, 08, 2009
+
+Wow almost 2 years later to the day since last update
+
+1. Updated compilation per zoaedks fix so the map editor works with Vista 64 bit now.
+2. Revised map flip / map mirror functions, made them useful
+3. Working on adding in all defaults for every item and possibly all mod editors for every item
+4. www.noxforum.net for requests for additions while I am working on this again
+5. Removed help wiki menu tab since the wiki is down
+
+June, 21, 2007
+
+1. Beta map flip added in, *buggy*
+
+May, 30, 2007
+
+1. Auto variations on walls removed for all but straights, defaulted to 0
+2. Korean translations updated
+
+May, 29, 2007
+
+1. Auto variations on walls removed for corners
+2. Fixed object crash when selecting OK in editor
+
+May, 23, 2007
+
+1. Auto variations now enabled on walls
+
+May, 18, 2007
+
+1. Right clicking on the minimap goes to GUI view, left goes to largemap (thx teddy)
+
+May, 15, 2007
+
+1. Tile drag added back in and corrected for old errors
+2. Small fixs throughout
+
+May, 14, 2007
+
+1. Fixed auto tiling for edges and all other variations
+2. Fixed GUI Deletion error
+3. Added auto tile coloring you can self define
+4. Added a new fixs.
+
+May, 8, 2007
+
+1. Added colorizing of tiles in.
+
+May, 6, 2007
+
+1. Auto tiling added in.
+1. Modeditor interface added...(for my use only really).
+
+May, 4, 2007
+
+1. Added option to attach npc image to mouse to check room layouts.
+
+May, 3, 2007
+
+1. Added updates notice to menu, (thanks for reminding me royal).
+2. Added support for placing tiles variations > 255
+3. Removed false error message when updating mods and modeditors
+4. Changed mod editor downloading to recognize file dates
+
+May, 2, 2007
+
+1. Added a generic NPC mod editor, not finished but will 
+   give you some script, direction and color editing options.
+   
+2. Altered the mod box editor to support a treeview to organize things
+   Made inventory ADD/DEL buttons inactive unless in an inventory.
+   
+3. Made splash screen show during updates, to keep users from freaking out.

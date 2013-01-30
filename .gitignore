@@ -1,0 +1,8 @@
+*.csprj.user
+*.opensdf
+*.sdf
+*.suo
+Debug/
+Release/
+bin/
+obj/

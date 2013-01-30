@@ -1,0 +1,6 @@
+Mana Capacity
+BYTE
+0
+Unknown
+INT
+0

@@ -1,0 +1,17 @@
+Enchant1
+ENCHANT
+0
+Enchant2
+ENCHANT
+0
+Enchant3
+ENCHANT
+0
+Enchant4
+ENCHANT
+0
+Number Of Bolts
+BYTE
+Unknown Amount
+BYTE
+0

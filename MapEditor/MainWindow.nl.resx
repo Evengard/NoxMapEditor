@@ -1,0 +1,1143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text">
+    <value xml:space="preserve">Nox Map Editor</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>526, 582</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>792, 555</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value xml:space="preserve">MainWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value xml:space="preserve">System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mapType.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="mapType.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="mapType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 24</value>
+  </data>
+  <data name="mapType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="&gt;&gt;mapType.Name">
+    <value xml:space="preserve">mapType</value>
+  </data>
+  <data name="&gt;&gt;mapType.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapTypeLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="mapTypeLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="mapTypeLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="mapTypeLbl.Text">
+    <value xml:space="preserve">Map Type</value>
+  </data>
+  <data name="mapTypeLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mapTypeLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;mapTypeLbl.Name">
+    <value xml:space="preserve">mapTypeLbl</value>
+  </data>
+  <data name="&gt;&gt;mapTypeLbl.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="recommendedLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="recommendedLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 24</value>
+  </data>
+  <data name="recommendedLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="recommendedLbl.Text">
+    <value xml:space="preserve">Aangeraden Aantal Spelers</value>
+  </data>
+  <data name="recommendedLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 264</value>
+  </data>
+  <data name="recommendedLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;recommendedLbl.Name">
+    <value xml:space="preserve">recommendedLbl</value>
+  </data>
+  <data name="&gt;&gt;recommendedLbl.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="maxRecLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="maxRecLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 24</value>
+  </data>
+  <data name="maxRecLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="maxRecLbl.Text">
+    <value xml:space="preserve">Max</value>
+  </data>
+  <data name="maxRecLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 288</value>
+  </data>
+  <data name="maxRecLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;maxRecLbl.Name">
+    <value xml:space="preserve">maxRecLbl</value>
+  </data>
+  <data name="&gt;&gt;maxRecLbl.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="minRecLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="minRecLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 24</value>
+  </data>
+  <data name="minRecLbl.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="minRecLbl.Text">
+    <value xml:space="preserve">Min</value>
+  </data>
+  <data name="minRecLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 288</value>
+  </data>
+  <data name="minRecLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;minRecLbl.Name">
+    <value xml:space="preserve">minRecLbl</value>
+  </data>
+  <data name="&gt;&gt;minRecLbl.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapMaxRec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="mapMaxRec.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="mapMaxRec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 288</value>
+  </data>
+  <data name="&gt;&gt;mapMaxRec.Name">
+    <value xml:space="preserve">mapMaxRec</value>
+  </data>
+  <data name="&gt;&gt;mapMaxRec.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapMinRec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="mapMinRec.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="mapMinRec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 288</value>
+  </data>
+  <data name="&gt;&gt;mapMinRec.Name">
+    <value xml:space="preserve">mapMinRec</value>
+  </data>
+  <data name="&gt;&gt;mapMinRec.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="mapCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="mapCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 264</value>
+  </data>
+  <data name="&gt;&gt;mapCopyright.Name">
+    <value xml:space="preserve">mapCopyright</value>
+  </data>
+  <data name="&gt;&gt;mapCopyright.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="labelCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="labelCopyright.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelCopyright.Text">
+    <value xml:space="preserve">Copyright</value>
+  </data>
+  <data name="labelCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 264</value>
+  </data>
+  <data name="labelCopyright.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.Name">
+    <value xml:space="preserve">labelCopyright</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="mapVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="mapVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 288</value>
+  </data>
+  <data name="&gt;&gt;mapVersion.Name">
+    <value xml:space="preserve">mapVersion</value>
+  </data>
+  <data name="&gt;&gt;mapVersion.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="mapDate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="mapDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 312</value>
+  </data>
+  <data name="&gt;&gt;mapDate.Name">
+    <value xml:space="preserve">mapDate</value>
+  </data>
+  <data name="&gt;&gt;mapDate.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDate.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 24</value>
+  </data>
+  <data name="labelDate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelDate.Text">
+    <value xml:space="preserve">Datum</value>
+  </data>
+  <data name="labelDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 312</value>
+  </data>
+  <data name="labelDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Name">
+    <value xml:space="preserve">labelDate</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapAuthor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="mapAuthor2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="mapAuthor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 224</value>
+  </data>
+  <data name="&gt;&gt;mapAuthor2.Name">
+    <value xml:space="preserve">mapAuthor2</value>
+  </data>
+  <data name="&gt;&gt;mapAuthor2.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapEmail2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="mapEmail2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="mapEmail2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 224</value>
+  </data>
+  <data name="&gt;&gt;mapEmail2.Name">
+    <value xml:space="preserve">mapEmail2</value>
+  </data>
+  <data name="&gt;&gt;mapEmail2.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="mapEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="mapEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 192</value>
+  </data>
+  <data name="&gt;&gt;mapEmail.Name">
+    <value xml:space="preserve">mapEmail</value>
+  </data>
+  <data name="&gt;&gt;mapEmail.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="mapAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="mapAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 192</value>
+  </data>
+  <data name="&gt;&gt;mapAuthor.Name">
+    <value xml:space="preserve">mapAuthor</value>
+  </data>
+  <data name="&gt;&gt;mapAuthor.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelEmail2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelEmail2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 24</value>
+  </data>
+  <data name="labelEmail2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelEmail2.Text">
+    <value xml:space="preserve">Email</value>
+  </data>
+  <data name="labelEmail2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 224</value>
+  </data>
+  <data name="labelEmail2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelEmail2.Name">
+    <value xml:space="preserve">labelEmail2</value>
+  </data>
+  <data name="&gt;&gt;labelEmail2.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 24</value>
+  </data>
+  <data name="labelEmail.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelEmail.Text">
+    <value xml:space="preserve">Email</value>
+  </data>
+  <data name="labelEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 192</value>
+  </data>
+  <data name="labelEmail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelEmail.Name">
+    <value xml:space="preserve">labelEmail</value>
+  </data>
+  <data name="&gt;&gt;labelEmail.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelAuthor2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelAuthor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="labelAuthor2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelAuthor2.Text">
+    <value xml:space="preserve">Secundaire Auteur</value>
+  </data>
+  <data name="labelAuthor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 224</value>
+  </data>
+  <data name="labelAuthor2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelAuthor2.Name">
+    <value xml:space="preserve">labelAuthor2</value>
+  </data>
+  <data name="&gt;&gt;labelAuthor2.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="labelAuthor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelAuthor.Text">
+    <value xml:space="preserve">Auteur</value>
+  </data>
+  <data name="labelAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 192</value>
+  </data>
+  <data name="labelAuthor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelAuthor.Name">
+    <value xml:space="preserve">labelAuthor</value>
+  </data>
+  <data name="&gt;&gt;labelAuthor.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 24</value>
+  </data>
+  <data name="labelVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelVersion.Text">
+    <value xml:space="preserve">Versie</value>
+  </data>
+  <data name="labelVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 288</value>
+  </data>
+  <data name="labelVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Name">
+    <value xml:space="preserve">labelVersion</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 88</value>
+  </data>
+  <data name="mapDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="mapDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 88</value>
+  </data>
+  <data name="mapDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mapDescription.Name">
+    <value xml:space="preserve">mapDescription</value>
+  </data>
+  <data name="&gt;&gt;mapDescription.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="labelDescription.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelDescription.Text">
+    <value xml:space="preserve">Beschrijving</value>
+  </data>
+  <data name="labelDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 88</value>
+  </data>
+  <data name="labelDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Name">
+    <value xml:space="preserve">labelDescription</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="labelTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelTitle.Text">
+    <value xml:space="preserve">Titel</value>
+  </data>
+  <data name="labelTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 56</value>
+  </data>
+  <data name="labelTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Name">
+    <value xml:space="preserve">labelTitle</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapSummary.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 20</value>
+  </data>
+  <data name="mapSummary.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mapSummary.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 56</value>
+  </data>
+  <data name="&gt;&gt;mapSummary.Name">
+    <value xml:space="preserve">mapSummary</value>
+  </data>
+  <data name="&gt;&gt;mapSummary.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mapView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 529</value>
+  </data>
+  <data name="mapView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mapView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mapView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;mapView.Name">
+    <value xml:space="preserve">mapView</value>
+  </data>
+  <data name="&gt;&gt;mapView.Type">
+    <value xml:space="preserve">NoxMapEditor.MapView, MapEditor, Version=0.0.7.42703, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>792, 555</value>
+  </data>
+  <data name="tabControl1.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>63, 18</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name">
+    <value xml:space="preserve">tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type">
+    <value xml:space="preserve">System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="largeMap.Text">
+    <value xml:space="preserve">Grote Map</value>
+  </data>
+  <data name="largeMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 529</value>
+  </data>
+  <data name="largeMap.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="largeMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;largeMap.Name">
+    <value xml:space="preserve">largeMap</value>
+  </data>
+  <data name="&gt;&gt;largeMap.Type">
+    <value xml:space="preserve">System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WallViewer.Text">
+    <value xml:space="preserve">Kleine Map</value>
+  </data>
+  <data name="WallViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 529</value>
+  </data>
+  <data name="WallViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="WallViewer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;WallViewer.Name">
+    <value xml:space="preserve">WallViewer</value>
+  </data>
+  <data name="&gt;&gt;WallViewer.Type">
+    <value xml:space="preserve">System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage1.Text">
+    <value xml:space="preserve">Map Informatie</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 529</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name">
+    <value xml:space="preserve">tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type">
+    <value xml:space="preserve">System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 560</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MinimapPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MinimapPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MinimapPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 529</value>
+  </data>
+  <data name="MinimapPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;MinimapPanel.Name">
+    <value xml:space="preserve">MinimapPanel</value>
+  </data>
+  <data name="&gt;&gt;MinimapPanel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="langEn.Text">
+    <value xml:space="preserve">&amp;Engels</value>
+  </data>
+  <data name="&gt;&gt;langEn.Name">
+    <value xml:space="preserve">langEn</value>
+  </data>
+  <data name="&gt;&gt;langEn.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="langKo.Text">
+    <value xml:space="preserve">&amp;Koreaans</value>
+  </data>
+  <data name="&gt;&gt;langKo.Name">
+    <value xml:space="preserve">langKo</value>
+  </data>
+  <data name="&gt;&gt;langKo.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="langSelect.Text">
+    <value xml:space="preserve">&amp;Taal</value>
+  </data>
+  <data name="&gt;&gt;langSelect.Name">
+    <value xml:space="preserve">langSelect</value>
+  </data>
+  <data name="&gt;&gt;langSelect.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainMenu1.Name">
+    <value xml:space="preserve">mainMenu1</value>
+  </data>
+  <data name="&gt;&gt;mainMenu1.Type">
+    <value xml:space="preserve">System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuFile.Text">
+    <value xml:space="preserve">&amp;Bestand</value>
+  </data>
+  <data name="&gt;&gt;menuFile.Name">
+    <value xml:space="preserve">menuFile</value>
+  </data>
+  <data name="&gt;&gt;menuFile.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuHelp.Text">
+    <value xml:space="preserve">&amp;Help</value>
+  </data>
+  <data name="&gt;&gt;menuHelp.Name">
+    <value xml:space="preserve">menuHelp</value>
+  </data>
+  <data name="&gt;&gt;menuHelp.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemAbout.Text">
+    <value xml:space="preserve">&amp;About</value>
+  </data>
+  <data name="&gt;&gt;menuItemAbout.Name">
+    <value xml:space="preserve">menuItemAbout</value>
+  </data>
+  <data name="&gt;&gt;menuItemAbout.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemExit.Text">
+    <value xml:space="preserve">&amp;Sluiten</value>
+  </data>
+  <data name="&gt;&gt;menuItemExit.Name">
+    <value xml:space="preserve">menuItemExit</value>
+  </data>
+  <data name="&gt;&gt;menuItemExit.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemGrid.Text">
+    <value xml:space="preserve">&amp;Grid</value>
+  </data>
+  <data name="menuItemGrid.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlG</value>
+  </data>
+  <data name="&gt;&gt;menuItemGrid.Name">
+    <value xml:space="preserve">menuItemGrid</value>
+  </data>
+  <data name="&gt;&gt;menuItemGrid.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemNew.Text">
+    <value xml:space="preserve">&amp;Nieuw</value>
+  </data>
+  <data name="menuItemNew.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlN</value>
+  </data>
+  <data name="&gt;&gt;menuItemNew.Name">
+    <value xml:space="preserve">menuItemNew</value>
+  </data>
+  <data name="&gt;&gt;menuItemNew.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemNxz.Text">
+    <value xml:space="preserve">.&amp;nxz Opslaan</value>
+  </data>
+  <data name="menuItemNxz.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlShiftN</value>
+  </data>
+  <data name="&gt;&gt;menuItemNxz.Name">
+    <value xml:space="preserve">menuItemNxz</value>
+  </data>
+  <data name="&gt;&gt;menuItemNxz.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemOpen.Text">
+    <value xml:space="preserve">&amp;Open</value>
+  </data>
+  <data name="menuItemOpen.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlO</value>
+  </data>
+  <data name="&gt;&gt;menuItemOpen.Name">
+    <value xml:space="preserve">menuItemOpen</value>
+  </data>
+  <data name="&gt;&gt;menuItemOpen.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemSave.Text">
+    <value xml:space="preserve">Op&amp;slaan</value>
+  </data>
+  <data name="menuItemSave.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlS</value>
+  </data>
+  <data name="&gt;&gt;menuItemSave.Name">
+    <value xml:space="preserve">menuItemSave</value>
+  </data>
+  <data name="&gt;&gt;menuItemSave.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemSaveAs.Text">
+    <value xml:space="preserve">Opslaan &amp;Als...</value>
+  </data>
+  <data name="&gt;&gt;menuItemSaveAs.Name">
+    <value xml:space="preserve">menuItemSaveAs</value>
+  </data>
+  <data name="&gt;&gt;menuItemSaveAs.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuItemStrings.Text">
+    <value xml:space="preserve">&amp;Script Strings</value>
+  </data>
+  <data name="menuItemStrings.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlShiftS</value>
+  </data>
+  <data name="&gt;&gt;menuItemStrings.Name">
+    <value xml:space="preserve">menuItemStrings</value>
+  </data>
+  <data name="&gt;&gt;menuItemStrings.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuMap.Text">
+    <value xml:space="preserve">&amp;Map</value>
+  </data>
+  <data name="&gt;&gt;menuMap.Name">
+    <value xml:space="preserve">menuMap</value>
+  </data>
+  <data name="&gt;&gt;menuMap.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuOptions.Text">
+    <value xml:space="preserve">&amp;Opties</value>
+  </data>
+  <data name="&gt;&gt;menuOptions.Name">
+    <value xml:space="preserve">menuOptions</value>
+  </data>
+  <data name="&gt;&gt;menuOptions.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuSeparator1.Text">
+    <value xml:space="preserve">-</value>
+  </data>
+  <data name="&gt;&gt;menuSeparator1.Name">
+    <value xml:space="preserve">menuSeparator1</value>
+  </data>
+  <data name="&gt;&gt;menuSeparator1.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="viewObjects.Text">
+    <value xml:space="preserve">&amp;Lijst met Objecten</value>
+  </data>
+  <data name="viewObjects.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms">
+    <value>CtrlShiftL</value>
+  </data>
+  <data name="&gt;&gt;viewObjects.Name">
+    <value xml:space="preserve">viewObjects</value>
+  </data>
+  <data name="&gt;&gt;viewObjects.Type">
+    <value xml:space="preserve">System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mapType.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapTypeLbl.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;recommendedLbl.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;maxRecLbl.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;minRecLbl.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapMaxRec.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapMinRec.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapCopyright.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapVersion.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapDate.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelDate.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapAuthor2.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapEmail2.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapEmail.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapAuthor.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelEmail2.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelEmail.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelAuthor2.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelAuthor.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapDescription.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;mapSummary.Parent">
+    <value xml:space="preserve">groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;largeMap.Parent">
+    <value xml:space="preserve">tabControl1</value>
+  </data>
+  <data name="&gt;&gt;WallViewer.Parent">
+    <value xml:space="preserve">tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent">
+    <value xml:space="preserve">tabControl1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent">
+    <value xml:space="preserve">tabPage1</value>
+  </data>
+  <data name="&gt;&gt;MinimapPanel.Parent">
+    <value xml:space="preserve">WallViewer</value>
+  </data>
+  <data name="&gt;&gt;mapType.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="&gt;&gt;mapTypeLbl.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="&gt;&gt;recommendedLbl.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="&gt;&gt;maxRecLbl.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="&gt;&gt;minRecLbl.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="&gt;&gt;mapMaxRec.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="&gt;&gt;mapMinRec.ZOrder">
+    <value xml:space="preserve">6</value>
+  </data>
+  <data name="&gt;&gt;mapCopyright.ZOrder">
+    <value xml:space="preserve">7</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.ZOrder">
+    <value xml:space="preserve">8</value>
+  </data>
+  <data name="&gt;&gt;mapVersion.ZOrder">
+    <value xml:space="preserve">9</value>
+  </data>
+  <data name="&gt;&gt;mapDate.ZOrder">
+    <value xml:space="preserve">10</value>
+  </data>
+  <data name="&gt;&gt;labelDate.ZOrder">
+    <value xml:space="preserve">11</value>
+  </data>
+  <data name="&gt;&gt;mapAuthor2.ZOrder">
+    <value xml:space="preserve">12</value>
+  </data>
+  <data name="&gt;&gt;mapEmail2.ZOrder">
+    <value xml:space="preserve">13</value>
+  </data>
+  <data name="&gt;&gt;mapEmail.ZOrder">
+    <value xml:space="preserve">14</value>
+  </data>
+  <data name="&gt;&gt;mapAuthor.ZOrder">
+    <value xml:space="preserve">15</value>
+  </data>
+  <data name="&gt;&gt;labelEmail2.ZOrder">
+    <value xml:space="preserve">16</value>
+  </data>
+  <data name="&gt;&gt;labelEmail.ZOrder">
+    <value xml:space="preserve">17</value>
+  </data>
+  <data name="&gt;&gt;labelAuthor2.ZOrder">
+    <value xml:space="preserve">18</value>
+  </data>
+  <data name="&gt;&gt;labelAuthor.ZOrder">
+    <value xml:space="preserve">19</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.ZOrder">
+    <value xml:space="preserve">20</value>
+  </data>
+  <data name="&gt;&gt;mapDescription.ZOrder">
+    <value xml:space="preserve">21</value>
+  </data>
+  <data name="&gt;&gt;labelDescription.ZOrder">
+    <value xml:space="preserve">22</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.ZOrder">
+    <value xml:space="preserve">23</value>
+  </data>
+  <data name="&gt;&gt;mapSummary.ZOrder">
+    <value xml:space="preserve">24</value>
+  </data>
+  <data name="&gt;&gt;mapView.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="&gt;&gt;largeMap.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="&gt;&gt;WallViewer.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="&gt;&gt;MinimapPanel.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+</root>
