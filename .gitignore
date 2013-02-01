@@ -1,7 +1,7 @@
-*.csprj.user
 *.opensdf
 *.sdf
 *.suo
+*.user
 Debug/
 Release/
 bin/
