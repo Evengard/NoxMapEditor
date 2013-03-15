@@ -1256,7 +1256,6 @@ namespace NoxShared
 				Date = rdr.ReadString((int) DATE);
 				uint temp = rdr.ReadUInt32();
 				Type = (MapType)temp;
-				Debug.WriteLineIf(Type == null, String.Format("Map Type was unknown, {0}", temp), "Map.MapIntro.Read");
 
 				if (Type == MapType.QUEST)//quest maps have an extra variable length section
 				{
@@ -1928,6 +1927,10 @@ namespace NoxShared
         }
         public class ScriptFunction : IComparable //bug in beta 2 prevents IndexOf from using generic IComparable
         {
+            public string name;
+            public byte[] code;
+            public List<int> vars = new List<int>();
+
             public ScriptFunction()
             {
             }
@@ -1935,9 +1938,6 @@ namespace NoxShared
             {
                 name = s;
             }
-            public string name;
-            public byte[] code;
-            public List<int> vars = new List<int>();
 
             public override bool Equals(System.Object other)
             {
@@ -1952,6 +1952,11 @@ namespace NoxShared
 					return name.CompareTo(((ScriptFunction)other).name);
 				else
 					return -1;
+            }
+
+            public override int GetHashCode()
+            {
+                return name.GetHashCode();
             }
 
 			public override string ToString()
