@@ -125,7 +125,7 @@ namespace NoxShared
 								{
 									fi.SetValue(member, xmlReader.ReadElementContentAs(fi.FieldType, null));
 								}
-								catch (Exception e)
+								catch
 								{
 								}
 								break;

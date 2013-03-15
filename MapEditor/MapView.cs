@@ -47,7 +47,7 @@ namespace NoxMapEditor
         private Point wallMouseLocation;
         private Point tileDrag;
         private Point mouseLocation;
-        string tempPath;
+        //string tempPath;
         public class KeyState
         {
             public /*IntPtr*/ Map.Waypoint wp1; // Waypoint holder
@@ -232,7 +232,7 @@ namespace NoxMapEditor
         private CheckBox checkBox5;
         private CheckBox checkBox4;
         private CheckBox checkBox6;
-        private VideoBag video = null;
+        //private VideoBag video = null;
 
         event System.Windows.Forms.KeyEventHandler DeletePressed;
 
@@ -1342,6 +1342,7 @@ Setstyle(Controlstyles.OptimizedDoubleBuffer, true); */
                     foreach (Map.Tile.EdgeTile edge in tile.EdgeTiles)
                         statusTile.Text += String.Format(" {0}-0x{1:x2}-{2}-{3}", ThingDb.FloorTileNames[edge.Graphic], edge.Variation, edge.Dir, ThingDb.EdgeTileNames[edge.Edge]);
                 }
+                /*
                 if (video != null)
                 {
                     Bitmap bits = video.ExtractOne(tile.Variations[tile.Variation]);
@@ -1352,6 +1353,7 @@ Setstyle(Controlstyles.OptimizedDoubleBuffer, true); */
                         //tilePictureBox.Load(tempPath);
                     }
                 }
+                 */
             }
 
            // if (KeyStates.wp1 != null && CurrentMode == Mode.EDIT_WAYPOINT)
@@ -3120,7 +3122,7 @@ Setstyle(Controlstyles.OptimizedDoubleBuffer, true); */
         private void AutoEdge(Point pt)
         {
             Point tilePt = pt;//GetNearestTilePoint(pt);
-            Map.Tile.EdgeTile.Direction EdgeDir;
+            //Map.Tile.EdgeTile.Direction EdgeDir;
 
             //tilePt = GetNearestTilePoint(tilePt);
 
@@ -3509,10 +3511,9 @@ Setstyle(Controlstyles.OptimizedDoubleBuffer, true); */
             Random ran = new Random();
             switch (EdgeName)
             {
-                case "MudEdge": return((ushort)ran.Next(4)); break;
-                default: return (ushort)TileVari; break;
-            };
-            return 0;
+                case "MudEdge": return((ushort)ran.Next(4));
+                default: return (ushort)TileVari;
+            }
         }
         private bool IsTileFromDir(Point tilePt, Map.Tile.EdgeTile.Direction EdgeDir)
         {

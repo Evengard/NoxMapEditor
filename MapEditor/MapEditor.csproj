@@ -106,10 +106,6 @@
       <Project>{06d9c862-7a67-46a3-8ab8-d5d78a8b3508}</Project>
       <Name>WizardForm</Name>
     </ProjectReference>
-    <Reference Include="ScriptFuncs, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>.\ScriptFuncs.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
