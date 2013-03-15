@@ -635,7 +635,7 @@ HRESULT _DbgOut( TCHAR* strFile, DWORD dwLine, HRESULT hr, TCHAR* strMsg )
 
 
 
-
+#pragma unmanaged
 //-----------------------------------------------------------------------------
 // Name: DXUtil_Trace()
 // Desc: Outputs to the debug stream a formatted string with a variable-
@@ -656,7 +656,7 @@ VOID DXUtil_Trace( TCHAR* strMsg, ... )
     UNREFERENCED_PARAMETER(strMsg);
 #endif
 }
-
+#pragma managed
 
 
 
