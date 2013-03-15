@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
-using System.Web.Mail;
+using System.Net.Mail;
 using System.IO;
 
 namespace NoxShared
@@ -334,18 +334,18 @@ namespace NoxShared
 			Hide();
 
 			MailMessage msg = new MailMessage();
-			msg.From = boxFrom.Text;
-			msg.To = boxEmailTo.Text;
+			msg.From = new MailAddress(boxFrom.Text);
+			msg.To.Add(boxEmailTo.Text);
 			msg.Subject = "NoxMapEditor Crash Report";
 			msg.Body = boxMessage.Text + (boxNotes.Text == "" ? "" : "\n\nNotes:\n" + boxNotes.Text);
 
 			bool sent = false;
 			foreach (string server in DnsLib.DnsApi.GetMXRecords(boxEmailTo.Text.Split('@')[1]))
 			{
-				SmtpMail.SmtpServer = server;
+                SmtpClient smtpClient = new SmtpClient(server);
 				try
 				{
-					SmtpMail.Send(msg);
+                    smtpClient.Send(msg);
 					sent = true;
 					break;
 				}
