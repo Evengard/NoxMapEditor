@@ -243,7 +243,7 @@ bool NOX_MAP::SaveObjectBMP(char objName[], char fileName[])
 	for(obj = Thing.Thing.Object.Objects.Get(); obj && strcmp(obj->Name,objName); obj = Thing.Thing.Object.Objects.Get(), ObjNum++);
 	Thing.Thing.Object.Objects.ClearGet();
 
-	OBJECT object;
+	//OBJECT object;
     //SURFACE tem;
     //SURFACE * test = NULL;
 
@@ -305,7 +305,7 @@ bool NOX_MAP::LoadObject(char objName[], CSurface ** surface)
 	for(obj = Thing.Thing.Object.Objects.Get(); obj && strcmp(obj->Name,objName); obj = Thing.Thing.Object.Objects.Get(), ObjNum++);
 	Thing.Thing.Object.Objects.ClearGet();
 
-	OBJECT object;
+	//OBJECT object;
     SURFACE tem;
     SURFACE * test = NULL;
 

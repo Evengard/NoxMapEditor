@@ -43,7 +43,7 @@ public:
   }
   void AddImage(int ObjID,int ImgID)
   {
-  
+  /*
   int numChildren;
   CSurface *surface;
   CSurface *name;
@@ -53,7 +53,7 @@ public:
   int OffsetX;
   int OffsetY;
   unsigned char ImgType;
-
+  */
   }
  OBJECT_MAP()
  {
