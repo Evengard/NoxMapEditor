@@ -64,7 +64,6 @@ public abstract class Bag// : Observable
         if (!File.Exists(bagPath))
         {
             throw new FileNotFoundException("Specified .bag was not found.", bagPath);
-            return false;
         }
         try
         {

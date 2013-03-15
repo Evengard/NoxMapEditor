@@ -3511,10 +3511,9 @@ Setstyle(Controlstyles.OptimizedDoubleBuffer, true); */
             Random ran = new Random();
             switch (EdgeName)
             {
-                case "MudEdge": return((ushort)ran.Next(4)); break;
-                default: return (ushort)TileVari; break;
-            };
-            return 0;
+                case "MudEdge": return((ushort)ran.Next(4));
+                default: return (ushort)TileVari;
+            }
         }
         private bool IsTileFromDir(Point tilePt, Map.Tile.EdgeTile.Direction EdgeDir)
         {

@@ -1498,7 +1498,6 @@ namespace NoxMapEditor
                             break;
                         default:
                             return;
-                            break;
                     }
                     mapBitmap.Save(sfd.FileName, imageFormat);
                 }
