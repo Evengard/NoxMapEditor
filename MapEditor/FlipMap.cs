@@ -19,66 +19,67 @@ namespace NoxMapEditor
         private void button2_Click(object sender, EventArgs e)
         {
             int mapsize = 255 * 23;
-                foreach (Map.Wall wall in view.Map.Walls.Values)
+            foreach (Map.Wall wall in view.Map.Walls.Values)
+            {
+                byte val = (byte)wall.Location.X;
+                val = (byte)~val;
+                wall.Location.X = (int)val-1;
+                switch (wall.Facing)
                 {
-                    byte val = (byte)wall.Location.X;
-                    val = (byte)~val;
-                    wall.Location.X = (int)val-1;
-                    switch (wall.Facing)
-                    {
-                        case Map.Wall.WallFacing.NORTH:
-                            wall.Facing = Map.Wall.WallFacing.WEST; break;
-                        case Map.Wall.WallFacing.WEST:
-                            wall.Facing = Map.Wall.WallFacing.NORTH; break;
+                    case Map.Wall.WallFacing.NORTH:
+                        wall.Facing = Map.Wall.WallFacing.WEST; break;
+                    case Map.Wall.WallFacing.WEST:
+                        wall.Facing = Map.Wall.WallFacing.NORTH; break;
 
-                        case Map.Wall.WallFacing.NORTH_T:
-                            wall.Facing = Map.Wall.WallFacing.WEST_T; break;
-                        case Map.Wall.WallFacing.WEST_T:
-                            wall.Facing = Map.Wall.WallFacing.NORTH_T; break;
+                    case Map.Wall.WallFacing.NORTH_T:
+                        wall.Facing = Map.Wall.WallFacing.WEST_T; break;
+                    case Map.Wall.WallFacing.WEST_T:
+                        wall.Facing = Map.Wall.WallFacing.NORTH_T; break;
 
-                        case Map.Wall.WallFacing.EAST_T:
-                            wall.Facing = Map.Wall.WallFacing.SOUTH_T; break;
-                        case Map.Wall.WallFacing.SOUTH_T:
-                            wall.Facing = Map.Wall.WallFacing.EAST_T; break;
+                    case Map.Wall.WallFacing.EAST_T:
+                        wall.Facing = Map.Wall.WallFacing.SOUTH_T; break;
+                    case Map.Wall.WallFacing.SOUTH_T:
+                        wall.Facing = Map.Wall.WallFacing.EAST_T; break;
 
-                        case Map.Wall.WallFacing.SE_CORNER:
-                            wall.Facing = Map.Wall.WallFacing.NW_CORNER; break;
-                        case Map.Wall.WallFacing.NW_CORNER:
-                            wall.Facing = Map.Wall.WallFacing.SE_CORNER; break;
-                    }
+                    case Map.Wall.WallFacing.SE_CORNER:
+                        wall.Facing = Map.Wall.WallFacing.NW_CORNER; break;
+                    case Map.Wall.WallFacing.NW_CORNER:
+                        wall.Facing = Map.Wall.WallFacing.SE_CORNER; break;
                 }
+            }
 
-                /*foreach (Map.Polygon poly in view.Map.Polygons)
+            /*foreach (Map.Polygon poly in view.Map.Polygons)
+            {
+                foreach (PointF pt in poly.Points)
                 {
-                    foreach (PointF pt in poly.Points)
-                    {
-                        float val = pt.X;
-                        val = (float)((float)(mapsize) - (float)(val));
-                        pt.X = (float)val;
-                    }
-                }*/
-               /* foreach (Map.Tile til in view.Map.Tiles.Values)
-                {
-                   byte val = (byte)til.Location.X;
-                   val = (byte)~val;
-                   til.Location.X = (int)val-1;
-                   // foreach (Map.Tile.EdgeTile edg in til.EdgeTiles)
-                   // {
-                   //     edg.Dir = Map.Tile.EdgeTile.Direction.
-                   // }
-                }*/
-                foreach (Map.Waypoint wpt in view.Map.Waypoints)
-                {
-                    float val = wpt.Point.X;
+                    float val = pt.X;
                     val = (float)((float)(mapsize) - (float)(val));
-                    wpt.Point.X = (float)val;
+                    pt.X = (float)val;
                 }
-                foreach (Map.Object tng in view.Map.Objects)
-                {
-                    float val = tng.Location.X;
-                    val = (float)((float)(mapsize) - (float)(val));
-                    tng.Location.X = (float)val;  
-                }
+            }*/
+            /* foreach (Map.Tile til in view.Map.Tiles.Values)
+            {
+                byte val = (byte)til.Location.X;
+                val = (byte)~val;
+                til.Location.X = (int)val-1;
+                // foreach (Map.Tile.EdgeTile edg in til.EdgeTiles)
+                // {
+                //     edg.Dir = Map.Tile.EdgeTile.Direction.
+                // }
+            }*/
+
+            foreach (Map.Waypoint wpt in view.Map.Waypoints)
+            {
+                float val = wpt.Point.X;
+                val = (float)((float)(mapsize) - (float)(val));
+                wpt.Point.X = (float)val;
+            }
+            foreach (Map.Object tng in view.Map.Objects)
+            {
+                float val = tng.Location.X;
+                val = (float)((float)(mapsize) - (float)(val));
+                tng.Location.X = (float)val;  
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -159,7 +160,7 @@ namespace NoxMapEditor
             // Flip the walls
             if (chkFlipWall.Checked)
             {
-                int mapsize = 255 * 23;
+                //int mapsize = 255 * 23;
                 Map.WallMap temap = new Map.WallMap();
                 foreach (Map.Wall wall in view.Map.Walls.Values)
                 {
