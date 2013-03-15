@@ -54,7 +54,7 @@ namespace Wizard
 			{
 				_oMainTabControl.Parent = null;
 				// Retaille le tabcontrol, et les controles enfants
-				_oMainTabControl.Scale(1, ((float)(_oMainTabControl.ClientSize.Height + _oMainTabControl.GetTabRect(0).Height )) / _oMainTabControl.ClientSize.Height);
+				_oMainTabControl.Scale(new SizeF(1, ((float)(_oMainTabControl.ClientSize.Height + _oMainTabControl.GetTabRect(0).Height )) / _oMainTabControl.ClientSize.Height));
 				// Récupère tous les controles des pages, et les assignes à la fenètre principale
 				_oControlsInPage = new ArrayList(_oMainTabControl.TabPages.Count);
 				_oPagesActivated = new ArrayList();
