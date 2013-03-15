@@ -865,12 +865,15 @@ namespace NoxShared
 				}
 			}
 
+            private Regex regex1 = new Regex("(?<field>.*)( = )(?<value>.*)", RegexOptions.IgnoreCase);
+            private Regex regex2 = new Regex("(?<flag>\\w+)");
 			public void Parse(string line)
 			{
 				CultureInfo culture = CultureInfo.CreateSpecificCulture("en-US");
-				Regex regex = new Regex("(?<field>.*)( = )(?<value>.*)", RegexOptions.IgnoreCase);
-				string fldString = regex.Match(line).Groups["field"].Value;
-				string valString = regex.Match(line).Groups["value"].Value;
+                Regex regex = regex1;
+                Match regexmatch = regex.Match(line);
+                string fldString = regexmatch.Groups["field"].Value;
+                string valString = regexmatch.Groups["value"].Value;
 
 				FieldInfo field = GetType().GetField(fldString, BindingFlags.Instance | BindingFlags.Public | BindingFlags.IgnoreCase);
 				if (field != null)
@@ -880,7 +883,7 @@ namespace NoxShared
 					//special handling for enumed types
 					if (field.Name == "Flags")
 					{
-						regex = new Regex("(?<flag>\\w+)");//group "flag" will have whatever's between plus signs
+                        regex = regex2;//group "flag" will have whatever's between plus signs
 						FlagsFlags flags = 0;
 						foreach (Match match in regex.Matches(valString))
 							flags |= (FlagsFlags) Enum.Parse(typeof(FlagsFlags), match.Groups["flag"].Value);
@@ -920,7 +923,7 @@ namespace NoxShared
                     }
                     else if (field.Name == "Class")
                     {
-                        regex = new Regex("(?<flag>\\w+)");//group "flag" will have whatever's between plus signs
+                        regex = regex2;//group "flag" will have whatever's between plus signs
                         ClassFlags flags = 0;
                         ArrayList enums = new ArrayList();
 
@@ -938,13 +941,13 @@ namespace NoxShared
 							Parse(typeof(SubclassFlags), match.Groups["flag"].Value);
 						field.SetValue(this, flags);
 						*/
-						regex = new Regex("(?<flag>\\w+)");//group "flag" will have whatever's between plus signs
+                        regex = regex2;//group "flag" will have whatever's between plus signs
 						foreach (Match match in regex.Matches(valString))
 							Subclass[(int) (SubclassBitIndex) Enum.Parse(typeof(SubclassBitIndex),  match.Groups["flag"].Value)] = true;
 					}
 					else if (field.Name == "Material")
 					{
-						regex = new Regex("(?<flag>\\w+)");//group "flag" will have whatever's between plus signs
+                        regex = regex2;//group "flag" will have whatever's between plus signs
 						MaterialFlags flags = 0;
 						foreach (Match match in regex.Matches(valString))
 							flags |= (MaterialFlags) Enum.Parse(typeof(MaterialFlags), match.Groups["flag"].Value);
